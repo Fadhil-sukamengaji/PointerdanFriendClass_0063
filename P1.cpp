@@ -41,3 +41,18 @@ class Lingkaran
             return 3.14 * r * r;
         }
 };
+
+int main()
+{
+    PersegiPanjang objekPP; //membuat objek
+    Lingkaran ol;
+
+    cout << "masukkan panjang : ";
+    cin >> objekPP.panjang;
+    cout << "masukkan lebar : ";
+    cin >> objekPP.lebar;
+    cout << "luas persegi panjang : " <<
+    objekPP.luasPp(objekPP.panjang, objekPP.lebar) << endl;
+
+
+}
